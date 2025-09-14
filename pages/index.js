@@ -9,7 +9,7 @@ export default function Home() {
     setLoading(true);
     setImage(null);
 
-    const response = await fetch("https://karthikn11.hf.space/api/predict/", {
+    const response = await fetch("https://huggingface.co/spaces/karthikn11/Pixpopai.hf.space/api/predict/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ data: [prompt] }),
@@ -49,5 +49,6 @@ export default function Home() {
     </div>
   );
 }
+
 
 
