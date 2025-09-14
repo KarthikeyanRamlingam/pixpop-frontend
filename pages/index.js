@@ -9,7 +9,7 @@ export default function Home() {
     setLoading(true);
     setImage(null);
 
-    const response = await fetch("https://YOUR-HF-SPACE-NAME.hf.space/run/predict", {
+    const response = await fetch("https://karthikn11.hf.space/run/predict", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ data: [prompt] }),
@@ -49,3 +49,4 @@ export default function Home() {
     </div>
   );
 }
+
