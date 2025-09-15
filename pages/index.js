@@ -57,3 +57,4 @@ export default function Home() {
         onChange={(e) => setPrompt(e.target.value)}
         placeholder="e.g. A futuristic city at night"
         className="w-full max-w-lg p-3 rounded-lg
+
